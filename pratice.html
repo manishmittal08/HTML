@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body style="background-color: deepskyblue;">
+     <h1>TABLE</h1>
+    <table border="5">
+     <caption>STUDENT DATA</caption> 
+     <thead>  
+    <tr>
+        <th>NAME</th>
+        <th>ROLL NO</th>
+        <th>CLASS</th>
+    </tr>
+    </thead>
+    <tbody>
+    <br>
+    <tr>
+        
+        <td>MANISH mittal</td>
+        <td>207</td>
+        <td>12<sup>th</sup></td>
+    </tr>
+    </tbody>
+    </table> 
+    <h1 style= "text-align : center"> REGISTRATION FORM</h1>
+    <form action ="/hello.html">
+        <input type="text" placeholder="ENTER YOUR USERNAME" style="text-align : center;">
+        <br>
+        <input type="password" placeholder="ENTER YOUR PASSWORD">
+        <br>
+        <label for="101">
+        <input type="radio" value="class 11" name="class" id="101">CLASS 11
+        </label>
+        <br>
+        <label for="102">
+        <input type="radio" value="class 12" name="class" id="102">CLASS 12
+        </label>
+        <br>
+        <h6>ENTER YOUR FAVOURITE SUBJECT</h6>
+        <label for="maths">
+            <input type="checkbox" value="maths" name="subject" id="101">MATHS
+        </label>
+        <label for="physics">
+            <input type="checkbox" value="physics" name="subject" id="102">PHYSICS
+        </label>
+        <label for="chemistry">
+            <input type="checkbox" value="chemistry" name="subject" id="103">CHEMISTRY
+        </label>
+        <label for="biology">
+            <input type="checkbox" value="biology" name="subject" id="104">BIOLOGY
+        </label>
+        <br><br>
+        <h6>SELECT YOUR CITY</h6>
+        <select name="city" id="city">
+            <option value="DELHI">DELHI</option>
+            <option value="PUNE">PUNE</option>
+            <option value="MEERUT">MEERUT</option>
+            <option value="GOA">GOA</option>
+        </select>
+        <br><br>
+        <textarea name="Feedback" id="101" placeholder="Please give ur valuable feedback here" rows="5">FEEDBACK</textarea>
+        <br><br>
+        <input type="submit" value="SUBMIT">
+    </form>
+
+</body>
+</html>
