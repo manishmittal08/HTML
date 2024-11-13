@@ -1,16 +1,7 @@
-body{
-   
+#city{
+    display: inline-block;
 }
-h1{
-    text-align: center;
-    text-decoration: wavy red underline;
-}
-p{
-    text-align: start;
-    font-weight: bolder;
-    line-height: 2.5;
-    letter-spacing: 5px;
-    font-size: medium;
-    font-family: Arial;
-    text-transform: lowercase;
+#button{
+    margin-left: 40px; 
+    transform: scale(2);
 }
